@@ -4,12 +4,24 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>easy-rest-parent</artifactId>
+	<groupId>com.easyrest.parent</groupId>
 	<packaging>jar</packaging>
 	<name>easy-rest-parent</name>
+	<version>1.0.0-SNAPSHOT</version>
 	<description>Easy Rest Application</description>
 
-	<dependencies>
 
+	<properties>
+		<java.version>1.8</java.version>
+		<spring.boot.version>2.0.3.RELEASE</spring.boot.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>${spring.boot.version}</version>
+		</dependency>
 	</dependencies>
 
 	<build>

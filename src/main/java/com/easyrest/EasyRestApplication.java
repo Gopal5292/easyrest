@@ -1,7 +1,10 @@
 package com.easyrest;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
  * Created by thomas31 on 7/31/2018.
  */
+@SpringBootApplication
 public class EasyRestApplication {
 }
