@@ -16,6 +16,5 @@ public class EasyRestRO implements Serializable {
     private static String inLocation;
 
     private DBConfigDetailsRO dbConfig;
-
-
+    private ControllerConfigRO controllerConfig;
 }
