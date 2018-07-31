@@ -23,7 +23,7 @@ public class SpringController {
 	@RequestMapping(value = "/requestmethod", method = RequestMethod.GET)
 	public List<String> getRequestMethods(){
 
-		return new ArrayList<>();
+		return new ArrayList<String>();
 	}
 
 
